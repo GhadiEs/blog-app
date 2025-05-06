@@ -42,7 +42,6 @@ MEDIA_BASE_URL=https://ghadi-blogapp-media.eu-north-1.amazonaws.com
 ```
 VITE_BASE_URL=http://ec2-16-16-98-137.eu-north-1.compute.amazonaws.com:5000/api
 VITE_MEDIA_BASE_URL=https://ghadi-blogapp-media.s3.eu-north-1.amazonaws.com
-
 ```
 
 ## Deployment Steps
@@ -92,3 +91,12 @@ aws s3 sync dist/ s3://ghadi-blogapp-frontend-bucket-name
 - Uploaded images go to the S3 media bucket
 - Frontend is accessed via S3 static website URL
 - Backend runs on EC2 public DNS at port 5000
+
+## Screenshots
+
+- ![Screenshot of backend server running]
+- ![Screenshot of frontend s3 web page]
+- ![Screenshot of file upload and retrieving a file]
+- ![Screenshot of S3 public URL loading index.html]
+- ![curl -I output showing 200 OK]
+- ![full MERN functionality]
