@@ -98,6 +98,6 @@ aws s3 sync dist/ s3://ghadi-blogapp-frontend-bucket-name
 2. [Screenshot of frontend s3 web page]
 3. [Screenshot of file upload and retrieving a file]
 4. [Screenshot of S3 public URL loading index.html]
-5. ![curl -I output showing 200 OK]
-6. ![full MERN functionality]
+5. [curl -I output showing 200 OK]
+6. [full MERN functionality]
    
